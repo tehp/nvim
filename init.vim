@@ -10,6 +10,10 @@ highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE guifg=D
 set spelllang=en_us
 set spell
 
+"Spellcheck underline
+hi clear SpellBad
+hi SpellBad cterm=underline
+
 "Start NERDTree on vim startup
 "autocmd vimenter * NERDTree
 
