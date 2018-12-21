@@ -4,7 +4,6 @@ call pathogen#helptags()
 
 set numberwidth=4
 set number
-highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 "Spellcheck
 set spelllang=en_us
@@ -42,3 +41,9 @@ let g:lightline = {
 let g:ale_open_list = 1
 
 set mouse=a
+
+let g:airline_powerline_fonts = 1
+
+"Nord config
+let g:nord_underline = 1
+colorscheme nord
