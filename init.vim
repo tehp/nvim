@@ -47,3 +47,5 @@ let g:airline_powerline_fonts = 1
 "Nord config
 let g:nord_underline = 1
 colorscheme nord
+
+set cursorline
