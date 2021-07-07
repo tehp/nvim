@@ -44,11 +44,7 @@ set mouse=a
 
 let g:airline_powerline_fonts = 1
 
-"Nord config
-let g:nord_underline = 1
 
-set cursorline
-colorscheme nord
 
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
